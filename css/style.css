@@ -1,0 +1,186 @@
+body,
+h1,
+h2,
+p {
+    font-family: Poppins;
+}
+.header-area {
+    background-color: #0d2135;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.for-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.menu ul li a:hover{
+    color: #F1C40F
+}
+
+button {
+    padding: 8px 19px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.slider-area{
+    background: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+}
+
+.center h2 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+
+.blog-section {
+    background-color: #f2f2f2;
+    padding: 30px 0 100px 0;
+}
+
+.blog-title, .service-title {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blog-title h2, .service-title h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.blog-title p {
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.single-blog img, .single-service img {
+    width: 100%;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.single-blog{
+    background-color: #dad8d8;
+    width: 24%;
+    border: 1px solid #b3b3b3;
+}
+
+.content-wrapper {
+    padding: 20px;
+}
+
+.content-wrapper h2, .content-wrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper h2 {
+    font-weight: 500;
+}
+
+.content-wrapper p{
+    margin-bottom: 20px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-area {
+    padding: 80px 0;
+}
+
+.single-service{
+    width: 24%;
+    border: 1px solid #b3b3b3
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.footer-wrapper ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-area {
+    padding: 100px 0;
+    background-color: #0d2135;
+}
+
+.copyright-area {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #091623;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400px;
+}
